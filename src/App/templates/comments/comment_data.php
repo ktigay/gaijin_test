@@ -14,7 +14,7 @@
         <div class="pad-ver">
             <a class="btn btn-sm btn-default btn-hover-primary answer-button" href="#<?=$comment['id'] ?>">Ответить</a>
             <?php if ($comment['editable']): ?>
-                <a class="btn btn-sm btn-default btn-hover-primary edit-button" href="#<?=$comment['id'] ?>">Редактировать</a>
+                <a class="btn btn-sm btn-default btn-hover-primary edit-button" href="#<?=$comment['id'] ?>"><i class="fa fa-pencil fa-fw"></i> Редактировать</a>
             <?php endif; ?>
             <?php if ($comment['removeable']): ?>
                 <a class="btn btn-sm btn-danger btn-hover-primary delete-button" href="#<?=$comment['id'] ?>">Удалить</a>
